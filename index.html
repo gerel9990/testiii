@@ -6,6 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inner child test</title>
     <style>
+        /* Responsive design for mobile */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .question {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .answers label {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    #result {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+/* Optional: Limit the width of the form */
+#aq-test {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Optional: Adjust the width of the result box */
+#result {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
         @keyframes popIn {
         0% {
             transform: scale(0.8);
